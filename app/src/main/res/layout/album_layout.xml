@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imgAlbum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAlbumName"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:text="Album Name" />
+
+                <TextView
+                    android:id="@+id/txtAlbumArtist"
+                    android:layout_width="280dp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="Album Artist" />"
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
